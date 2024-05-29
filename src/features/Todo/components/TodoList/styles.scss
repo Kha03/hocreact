@@ -1,0 +1,11 @@
+.todoList {
+  font-size: 24px;
+  & > li.completed {
+    text-decoration: line-through;
+    color: blanchedalmond;
+  }
+  & > li {
+    margin: 10px 0;
+    cursor: pointer;
+  }
+}

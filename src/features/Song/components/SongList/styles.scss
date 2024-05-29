@@ -1,0 +1,10 @@
+.song-list {
+  display: flex;
+  list-style: none;
+  flex-wrap: nowrap;
+  padding: 0;
+  margin: 0 -20px 0 0;
+  & > li {
+    padding: 0 20px;
+  }
+}
